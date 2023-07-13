@@ -1,0 +1,49 @@
+/*      max width    1110px                                 */
+@media (max-width: 1110px) {
+    .form {
+        width: 40%;
+        height: 80%;
+    }
+}
+
+/*        max width  850px                */
+@media (max-width: 850px) {
+    .form {
+        width: 50%;
+        height: 80%;
+    }
+}
+
+@media (max-height: 670px) {
+    .form {
+        height: 90%;
+    }
+}
+
+
+/*         max width  660px                 */
+@media (max-width: 660px) {
+    .form {
+        width: 80%;
+        height: 80%;
+    }
+
+    .getData .inputs input {
+        width: 11rem;
+    }
+}
+
+/*         max width  355px                 */
+@media (max-width: 355px) {
+    .getData .titre img {
+        width: 80%;
+    }
+
+}
+
+@media (min-width: 1537px) {
+    #container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
